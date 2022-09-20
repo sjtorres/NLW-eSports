@@ -11,7 +11,7 @@ app.use(express.json())
 
 const prisma = new PrismaClient()
 
-// HTTP methods / API RESTfull:
+// Métodos HTTP / API RESTfull:
 // GET(buscar/listar), POST(criar), PUT(editar), PATCH(edição simples), DELETE(remover)
 // Tipos de Parametros:
 // Query: Usado para filtros ou paginação
