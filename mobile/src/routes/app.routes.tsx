@@ -12,6 +12,7 @@ export function AppRoutes() {
         name="home"
         component={Home}
       />
+      
       <Screen 
         name="game"
         component={Game}
